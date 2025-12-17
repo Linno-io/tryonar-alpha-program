@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://5.223.57.103:4040';
+const API_BASE_URL = 'https://api.tryonar.net';
 
 interface RegisterUserResponse {
   data: {
