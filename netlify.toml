@@ -1,0 +1,17 @@
+## Netlify configuration for Vite + React + TypeScript app
+
+[build]
+  # Use the existing Vite build script
+  command = "npm run build"
+  # Vite outputs static files to the dist directory
+  publish = "dist"
+
+## If you later add client-side routing (React Router, etc.),
+## uncomment the section below so all routes serve index.html.
+##
+## [[redirects]]
+##   from = "/*"
+##   to = "/index.html"
+##   status = 200
+
+
